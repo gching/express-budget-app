@@ -1,0 +1,10 @@
+{
+  "name": "express-budget-app",
+  "description": "budget app made in express",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.7.2",
+    "ejs": "~0.8.5"
+  }
+}
