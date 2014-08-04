@@ -1,1 +1,11 @@
-hi
+<% sum = 0; %>
+Current products
+
+<% for(var i=0; i<products.length; i++) { %>
+        <li>
+        <%- link_to(products[i].name, '/products/'+products[i]._id)  %> : <%= products[i].price %>
+          <% sum = sum + parseInt(products[i].price) %>
+        </li>
+<% } %>
+
+Total is <%= sum %>
